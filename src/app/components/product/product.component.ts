@@ -11,7 +11,7 @@ export class ProductComponent implements OnInit {
   products: Product[] = [];
   total: number = 0;
   currentPage: number = 1;
-  itemsPerPage: number = 5;
+  itemsPerPage: number = 10;
   maxVisiblePages: number = 5;
 
   constructor(private productService: ProductService) {}
