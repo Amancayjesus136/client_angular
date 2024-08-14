@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductComponent } from './components/product/product.component';
 import { ClientComponent } from './components/client/client.component';
+import { MenuComponent } from './components/layouts/menu/menu.component';
+import { FooterComponent } from './components/layouts/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductComponent,
-    ClientComponent
+    ClientComponent,
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
